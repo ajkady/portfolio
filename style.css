@@ -96,6 +96,17 @@ nav ul li a {
   color: var(--layer-1);
   font-size: 60px;
 }
+.work-links {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.work-link {
+  font-family: "Balsamiq Sans", sans-serif;
+  text-decoration: none;
+  color: var(--layer-1);
+  font-size: 27px;
+}
 #about-title {
   font-family: "Fredoka One", sans-serif;
   color: var(--layer-4);
