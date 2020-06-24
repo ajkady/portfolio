@@ -47,7 +47,6 @@ nav ul li a {
   transition: all 0.5s ease;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
-
 .home {
   font-size: 20px;
   color: var(--layer-4);
@@ -130,8 +129,8 @@ nav ul li a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: -30px;
   background-color: #3a3642;
+  margin-top: -55px;
   color: var(--header);
   font-family: sans-serif;
   font-size: 12px;
@@ -155,4 +154,13 @@ nav ul li a {
   text-decoration: none;
   padding: 5px;
   font-size: 25px;
+}
+
+@media (max-width: 375px) {
+  nav ul li a {
+    font-size: 17px;
+  }
+  .dropbtn {
+    font-size: 17px;
+  }
 }
