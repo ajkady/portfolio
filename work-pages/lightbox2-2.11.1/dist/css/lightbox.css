@@ -160,8 +160,10 @@ body.lb-disable-scrolling {
 }
 
 .lb-data .lb-caption {
-  font-size: 13px;
+  font-size: 30px;
+  font-family: "Balsamiq Sans";
   font-weight: bold;
+  color: #f8ffe5;
   line-height: 1em;
 }
 

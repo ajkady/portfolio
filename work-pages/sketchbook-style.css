@@ -15,14 +15,14 @@
   background: linear-gradient(to bottom, #1b9aaa 0%, #4170d5 100%);
 }
 h1 {
-  padding-top: 80px;
+  padding-top: 70px;
   color: var(--header);
   text-align: center;
   font-family: "Balsamiq Sans", sans-serif;
   font-size: 50px;
 }
 .content {
-  padding-top: 15px;
+  padding-top: 10px;
   display: flex;
   flex-wrap: wrap;
   width: 100%;
@@ -31,6 +31,7 @@ h1 {
   padding-bottom: 60px;
   max-width: 800px;
   margin: auto;
+  margin-bottom: 25px;
 }
 .item {
   margin: 4px 6px;
@@ -61,12 +62,16 @@ h1 {
 }
 
 @media (max-width: 425px) {
+  h1 {
+    font-size: 35px;
+  }
+  .content {
+    max-width: 350px;
+  }
   .item img {
-    max-height: none;
-    max-width: 200px;
+    max-height: 150px;
   }
   .item2 img {
-    max-height: none;
-    max-width: 200px;
+    max-height: 130px;
   }
 }
