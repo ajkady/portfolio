@@ -46,7 +46,15 @@ h1 {
   border-radius: 5px;
 }
 .item2 img {
-  max-height: 350px;
+  max-height: 340px;
+  border-radius: 5px;
+}
+.item3 {
+  margin: 4px 6px;
+  border-radius: 5px;
+}
+.item3 img {
+  max-height: 360px;
   border-radius: 5px;
 }
 @media (max-width: 780px) {
@@ -58,6 +66,9 @@ h1 {
   }
   .item2 img {
     max-height: 175px;
+  }
+  .item3 img {
+    max-height: 185px;
   }
 }
 
@@ -73,5 +84,8 @@ h1 {
   }
   .item2 img {
     max-height: 130px;
+  }
+  .item3 img {
+    max-height: 137px;
   }
 }

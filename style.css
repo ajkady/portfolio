@@ -64,6 +64,7 @@ nav ul li a {
 }
 #layer-2 {
   height: 700px;
+  width: 100%;
 }
 #layer-3 {
   height: 750px;
@@ -88,21 +89,78 @@ nav ul li a {
 }
 #work-title {
   padding-top: 100px;
-  margin: 0 0 0 14vw;
+  margin: 0 0 0 7vw;
   font-family: "Fredoka One", sans-serif;
   color: var(--layer-1);
   font-size: 60px;
+  position: absolute;
+}
+
+.work-menu {
+  width: 400px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  top: 828px;
 }
 .work-links {
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  position: relative;
+  margin: auto;
+  text-align: center;
+  width: 100px;
 }
 .work-link {
   font-family: "Balsamiq Sans", sans-serif;
   text-decoration: none;
   color: var(--layer-1);
   font-size: 27px;
+}
+work-link:hover {
+  color: var(--layer-4);
+}
+#illustration-junk-link {
+  text-align: center;
+  position: absolute;
+  top: 275px;
+  right: 63px;
+  transform: rotate(-7deg);
+  line-height: 25px;
+}
+#graphic-design-link {
+  text-align: center;
+  position: absolute;
+  top: 325px;
+  left: 100px;
+  transform: rotate(17deg);
+  line-height: 25px;
+}
+#sketchbook-link {
+  text-align: center;
+  position: absolute;
+  top: 520px;
+  right: 140px;
+  transform: rotate(-2deg);
+  line-height: 25px;
+}
+#videos-link {
+  text-align: center;
+  position: absolute;
+  top: 563px;
+  left: 116px;
+  transform: rotate(-13deg);
+  line-height: 25px;
+}
+#web-design-link {
+  text-align: center;
+  position: absolute;
+  top: 715px;
+  right: 134px;
+  transform: rotate(-5deg);
+  line-height: 25px;
 }
 #about-title {
   font-family: "Fredoka One", sans-serif;
@@ -327,6 +385,7 @@ q {
     font-size: 30px;
   }
   #work-title {
+    margin: -10px 0 0 14vw;
     font-size: 30px;
   }
   #contact-title {

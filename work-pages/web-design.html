@@ -2,7 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"> 
+
     <title>Web Design</title>
     <link rel="stylesheet" href="work-style.css" />
     <link rel="stylesheet" href="web-design-style.css" />
@@ -62,5 +63,13 @@
         </div>
       </div>
     </footer>
+    <script language="javascript">
+      function autoResizeDiv()
+      {
+          document.getElementById('main').style.height = window.innerHeight +'px';
+      }
+      window.onresize = autoResizeDiv;
+      autoResizeDiv();
+  </script>
   </body>
 </html>
