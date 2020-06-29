@@ -6,6 +6,7 @@
 
     <title>Ahmad Kady Portfolio</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="loading/loading.css">
     <script
       src="https://kit.fontawesome.com/1de31475bb.js"
       crossorigin="anonymous"
@@ -21,6 +22,10 @@
         </ul>
       </nav>
     </header>
+    <div class="loader">
+      <img src="loading/loading.png" class="load_img" alt="loading...">
+      <h1 class="load-title">loading...</h1>
+    </div>
     <div class="background">
       <svg
         id="bg"
@@ -162,6 +167,14 @@
       </div>
       <div class="layer" id="layer-4">
         <h1 id="contact-title">contact</h1>
+        <p>SEND E-MAIL</p>
+        <form class="contact-form" action="contactform.php" method="post">
+          <input type="text" name="name" placeholder="name">
+          <input type="text" name="mail" placeholder="email">
+          <input type="text" name="subject" placeholder="subject">
+          <textarea name="message" placeholder="message"></textarea>
+          <button type="submit" name="submit">send</button>
+        </form>
       </div>
     </div>
     <footer>
@@ -185,5 +198,11 @@
     <script src="testimonials.js"></script>
     <script src="title-image.js"></script>
     <script src="accordion.js"></script>
+    <script>
+      window.addEventListener("load", function () {
+        const loader = document.querySelector(".loader");
+        loader.className += " hidden";
+      });
+    </script>
   </body>
 </html>

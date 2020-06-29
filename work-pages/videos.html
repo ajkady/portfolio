@@ -6,6 +6,8 @@
     <title>videos</title>
     <link rel="stylesheet" href="work-style.css" />
     <link rel="stylesheet" href="videos-style.css" />
+    <link rel="stylesheet" href="../loading/loading.css">
+
     <script
       src="https://kit.fontawesome.com/1de31475bb.js"
       crossorigin="anonymous"
@@ -36,6 +38,10 @@
         </div>
       </nav>
     </header>
+    <div class="loader">
+      <img src="../loading/loading.png" class="load_img" alt="loading...">
+      <h1 class="load-title">loading...</h1>
+    </div>
     <div class="wrapper">
     <div class="bg">
       <h1>videos</h1>
@@ -94,5 +100,11 @@
     </div>
       </footer>
     </footer>
+    <script>
+      window.addEventListener("load", function () {
+        const loader = document.querySelector(".loader");
+        loader.className += " hidden";
+      });
+    </script>
   </body>
 </html>

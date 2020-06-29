@@ -119,8 +119,9 @@ nav ul li a {
   color: var(--layer-1);
   font-size: 27px;
 }
-work-link:hover {
+.work-link:hover {
   color: var(--layer-4);
+  transition: 0.5s ease;
 }
 #illustration-junk-link {
   text-align: center;
@@ -370,6 +371,26 @@ q {
   text-decoration: none;
   padding: 5px;
   font-size: 25px;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  font-family: "Balsamiq Sans", sans-serif;
+  align-items: center;
+}
+form input {
+  margin: 5px;
+  padding: 5px;
+}
+form textarea {
+  margin: 5px;
+}
+form button {
+  padding: 5px;
+  margin: 5px;
 }
 
 @media all and (max-width: 736px) {
