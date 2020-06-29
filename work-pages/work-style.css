@@ -14,7 +14,15 @@
   border: 0;
   box-sizing: border-box;
 }
-
+.wrapper {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: start;
+}
+.bg {
+  flex: 1;
+}
 /*header styles*/
 nav {
   margin-top: 0px;
