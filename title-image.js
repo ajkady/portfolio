@@ -11,5 +11,23 @@ function pickImg() {
   prev_choice = choice;
 }
 pickImg();
-console.log(choice);
-console.log(prev_choice);
+
+let email_calls = [
+  "insult me",
+  "tell me a secret",
+  "compliment me",
+  "tell me about your day",
+  "recommend me a book",
+  "offer me money",
+  "network my head off",
+  "write me a haiku",
+  "be my penpal",
+];
+let call_count = email_calls.length;
+function pickCall() {
+  choice = Math.floor(Math.random() * call_count);
+  document.getElementById("contact-call").textContent = email_calls[choice];
+  console.log(choice);
+}
+
+pickCall();

@@ -15,6 +15,7 @@
   <body>
     <header>
       <nav>
+        <a class="home-top" href="#layer-1"><i class="fas fa-home"></i></a>
         <ul>
           <li><a id="work-link" href="#layer-2">work</a></li>
           <li><a id="about-link" href="#layer-3">about</a></li>
@@ -85,11 +86,11 @@
           <h1 id="work-title">work</h1>
           <img class="work-menu" src="work menu drawing.png" alt="work menu"/>
         <div class="work-links">
-          <a class="work-link" id="illustration-junk-link" href="work-pages/illustration-fine-art.html">illustration/<br/>junk</a>
-          <a class="work-link" id="graphic-design-link" href="work-pages/graphic-design.html">graphic<br/>design</a>
-          <a class="work-link" id="sketchbook-link" href="work-pages/sketchbook.html">sketch<br/>book</a>
-          <a class="work-link" id="videos-link" href="work-pages/videos.html">videos</a>
-          <a class="work-link" id="web-design-link" href="work-pages/web-design.html">web<br/>design</a>
+          <a class="work-link" id="illustration-junk-link" href="work/illustration-fine-art.html">illustration/<br/>junk</a>
+          <a class="work-link" id="graphic-design-link" href="work/graphic-design.html">graphic<br/>design</a>
+          <a class="work-link" id="sketchbook-link" href="work/sketchbook.html">sketch<br/>book</a>
+          <a class="work-link" id="videos-link" href="work/videos.html">videos</a>
+          <a class="work-link" id="web-design-link" href="work/web-design.html">web<br/>design</a>
         </div>
       </div>
       
@@ -167,12 +168,13 @@
       </div>
       <div class="layer" id="layer-4">
         <h1 id="contact-title">contact</h1>
-        <p>SEND E-MAIL</p>
+        <div class="pusher"></div>
         <form class="contact-form" action="contactform.php" method="post">
-          <input type="text" name="name" placeholder="name">
-          <input type="text" name="mail" placeholder="email">
-          <input type="text" name="subject" placeholder="subject">
-          <textarea name="message" placeholder="message"></textarea>
+          <p id="contact-call" class="contact-call">email me</p>
+          <input type="text" name="name" placeholder="your name" required>
+          <input type="text" name="mail" placeholder="your email">
+          <input type="text" name="subject" placeholder="subject" required>
+          <textarea name="message" placeholder="message" style="resize: none;"></textarea>
           <button type="submit" name="submit">send</button>
         </form>
       </div>

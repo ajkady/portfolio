@@ -21,6 +21,15 @@ let turnBothOn = function () {
       acc2.nextElementSibling.style.maxHeight =
         acc2.nextElementSibling.scrollHeight + "px";
     }
+  } else {
+    acc1.classList.toggle("active");
+    acc1.nextElementSibling.style.display = "block";
+    if (acc1.nextElementSibling.style.maxHeight) {
+      acc1.nextElementSibling.style.maxHeight = null;
+    } else {
+      acc1.nextElementSibling.style.maxHeight =
+        acc1.nextElementSibling.scrollHeight + "px";
+    }
   }
 };
 
