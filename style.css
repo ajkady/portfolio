@@ -185,6 +185,19 @@ nav ul li a {
   margin: 0 5vw 0 0;
   text-align: right;
 }
+.secret-wrapper {
+  position: relative;
+  text-align: center;
+  width: 30px;
+  margin: auto;
+}
+.secret {
+  position: absolute;
+  top: 515px;
+  max-width: 180px;
+  right: 120px;
+  z-index: -1;
+}
 #info {
   margin-top: 30px;
 }
@@ -459,6 +472,11 @@ form button:focus {
 
 @media all and (max-width: 736px) {
   /*TITLE*/
+  .secret {
+    left: -40px;
+    max-width: 100px;
+    top: 530px;
+  }
   #title-img {
     width: 400px;
   }
