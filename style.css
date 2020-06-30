@@ -7,7 +7,7 @@ html {
 }
 
 :root {
-  --layer-1: #ef476f;
+  --layer-1: #000000;
   --layer-2: #ffc43d;
   --layer-3: #06d6a0;
   --layer-4: #1b9aaa;
@@ -93,7 +93,7 @@ nav ul li a {
 }
 #title-img {
   padding-top: 100px;
-  max-width: 10px;
+  max-width: 500px;
   margin: auto;
 }
 .hero {
@@ -249,7 +249,7 @@ nav ul li a {
   content: "\2796";
 }
 .panel {
-  padding: 1px;
+  padding: 13px;
   background-color: var(--header);
   display: none;
   max-height: 0;
