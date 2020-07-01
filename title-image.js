@@ -1,4 +1,4 @@
-const img_count = 9;
+const img_count = 10;
 let prev_choice = 0;
 let choice = 0;
 function pickImg() {
