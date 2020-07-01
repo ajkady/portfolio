@@ -16,10 +16,9 @@ let email_calls = [
   "insult me",
   "tell me a secret",
   "compliment me",
-  "tell me about your day",
-  "recommend me a book",
+  "recommend me a romance novel",
   "offer me money",
-  "network my head off",
+  "challenge me to a duel",
   "write me a haiku",
   "be my penpal",
 ];
