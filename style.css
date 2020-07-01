@@ -534,7 +534,7 @@ form button:focus {
   }
 }
 
-@media all and (max-width: 420px) {
+@media all and (max-width: 410px) {
   /*TITLE*/
   .secret {
     left: -40px;
