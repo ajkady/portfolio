@@ -69,6 +69,16 @@ h2 {
   max-height: 290px;
   border-radius: 5px;
 }
+.item4 {
+  margin: 4px 5px;
+  margin-top: 0px;
+
+  border-radius: 5px;
+}
+.item4 img {
+  max-height: 250px;
+  border-radius: 5px;
+}
 
 @media (max-width: 780px) {
   h2 {
@@ -85,6 +95,9 @@ h2 {
   }
   .item3 img {
     max-height: 160px;
+  }
+  .item4 img {
+    max-height: 130px;
   }
 }
 
@@ -106,5 +119,8 @@ h2 {
   }
   .item3 img {
     max-height: 120px;
+  }
+  .item4 img {
+    max-height: 90px;
   }
 }

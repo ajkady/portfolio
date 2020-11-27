@@ -21,6 +21,27 @@ h1 {
   font-family: "Balsamiq Sans", sans-serif;
   font-size: 50px;
 }
+h2 {
+  padding-top: 15px;
+  padding-bottom: 20px;
+  color: var(--header);
+  text-align: center;
+  font-family: "Balsamiq Sans", sans-serif;
+  font-size: 20px;
+}
+.instalink {
+  color: var(--layer-1);
+  background-color: var(--header);
+  padding: 5px;
+  border: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  transition: all 0.25s ease;
+}
+.instalink:hover {
+  background-color: var(--layer-1);
+  color: var(--header);
+}
 .content {
   padding-top: 10px;
   display: flex;
@@ -75,6 +96,9 @@ h1 {
 @media (max-width: 425px) {
   h1 {
     font-size: 35px;
+  }
+  h2 {
+    font-size: 15px;
   }
   .content {
     max-width: 350px;
