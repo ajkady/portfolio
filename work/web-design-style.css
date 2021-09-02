@@ -82,9 +82,6 @@ img {
   width: 200px;
 }
 a.button {
-  -webkit-appearance: button;
-  -moz-appearance: button;
-  appearance: button;
   margin-top: 20px;
   text-decoration: none;
   color: #f8ffe5;
