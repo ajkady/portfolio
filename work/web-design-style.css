@@ -112,7 +112,7 @@ footer {
 }
 
 @media (max-width: 570px) {
-  img {
+  .website_bear {
     max-width: 200px;
   }
   .content h2 {
@@ -132,5 +132,11 @@ footer {
     font-size: 15px;
     color: #ef476f;
     margin-bottom: 5px;
+  }
+  .bestiemix_logo {
+    max-width: 300px;
+  }
+  .bestiemix_photo {
+    max-width: 200px;
   }
 }
