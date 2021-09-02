@@ -14,8 +14,8 @@
   background: -moz-linear-gradient(top, #1b9aaa 0%, #4170d5 100%);
   background: -webkit-linear-gradient(top, #1b9aaa 0%, #4170d5 100%);
   background: linear-gradient(to bottom, #1b9aaa 0%, #4170d5 100%);
-  min-height: 100vh;
   display: flex;
+  flex-direction: column;
 }
 .content {
   margin: auto;
@@ -23,6 +23,8 @@
   font-family: "Balsamiq Sans", sans-serif;
   color: var(--header);
   position: relative;
+  padding-top: 100px;
+  padding-bottom: 50px;
 }
 img {
   max-width: 500px;
@@ -39,6 +41,70 @@ img {
   margin-top: 40px;
   color: var(--layer-2);
   margin-bottom: 60px;
+}
+
+.bestiemix-window {
+  min-height: 750px;
+  height: 50vh;
+  background-color: var(--header);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Balsamiq Sans", sans-serif;
+  margin-top: -20px;
+}
+
+.bestiemix-window h2 {
+  font-size: 50px;
+}
+.bestiemix-window h3 {
+  font-size: 25px;
+  color: #ef476f;
+  margin-bottom: 10px;
+  max-width: 500px;
+}
+
+.bestiemix_photo {
+  width: 300px;
+}
+
+.bestiemix_pitch {
+  width: 80%;
+  text-align: center;
+}
+
+.bestiemix_pitch span {
+  color: #4170d5;
+}
+
+.bestiemix_tools {
+  width: 200px;
+}
+a.button {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #f8ffe5;
+  background-color: #47a6ff;
+  padding: 15px;
+  border-radius: 5px;
+  width: 250px;
+  text-align: center;
+  font-size: 22px;
+  box-shadow: 0 8px #4170d5;
+  transition: 0.2s;
+  margin-bottom: 80px;
+}
+a.button:active {
+  box-shadow: 0 4px #4170d5;
+  transform: translateY(4px);
+}
+
+a.button:hover {
+  background-color: #06d6a0;
 }
 footer {
   position: relative;
@@ -58,5 +124,13 @@ footer {
   .content h3 {
     font-size: 20px;
     margin-top: 20px;
+  }
+  .bestiemix-window {
+    min-height: 550px;
+  }
+  .bestiemix-window h3 {
+    font-size: 15px;
+    color: #ef476f;
+    margin-bottom: 5px;
   }
 }

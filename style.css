@@ -151,8 +151,8 @@ nav ul li a {
 #graphic-design-link {
   text-align: center;
   position: absolute;
-  top: 510px;
-  left: 110px;
+  top: 520px;
+  left: 115px;
   transform: rotate(-13deg);
   line-height: 25px;
 }
@@ -167,8 +167,8 @@ nav ul li a {
 #videos-link {
   text-align: center;
   position: absolute;
-  top: 295px;
-  left: 112px;
+  top: 280px;
+  left: 100px;
   transform: rotate(17deg);
   line-height: 25px;
 }
@@ -176,7 +176,7 @@ nav ul li a {
   text-align: center;
   position: absolute;
   top: 675px;
-  right: 134px;
+  right: 124px;
   transform: rotate(-5deg);
   line-height: 25px;
 }
@@ -569,7 +569,7 @@ form button:focus {
     line-height: 20px;
   }
   #graphic-design-link {
-    top: 315px;
+    top: 450px;
     left: 90px;
     line-height: 20px;
   }
