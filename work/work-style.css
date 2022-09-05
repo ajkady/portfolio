@@ -23,6 +23,14 @@
 .bg {
   flex: 1;
 }
+
+.juicer {
+  max-width: 80%;
+  margin: auto;
+  margin-top: -90px;
+  margin-bottom: 60px;
+}
+
 /*header styles*/
 nav {
   margin-top: 0px;
