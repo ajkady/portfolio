@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 :root {
   --layer-1: #ef476f;
@@ -41,6 +42,53 @@ img {
   margin-top: 40px;
   color: var(--layer-2);
   margin-bottom: 60px;
+}
+
+.protect-baby-window {
+  padding-top: 100px;
+  min-height: 600px;
+  height: 30vh;
+  background-color: black;
+  color:  #ff004d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Press Start 2P', cursive;  
+  margin-top: -10px;
+  line-height: 30px;
+}
+
+.protect-baby-window h2 {
+  font-size: 20px;
+  max-width: 500px;
+  justify-content: center;
+  text-align: center;
+}
+.protect-baby-window h3 {
+  font-size: 25px;
+  color: #ef476f;
+  margin-bottom: 10px;
+  max-width: 500px;
+}
+
+.protect-baby-window span {
+  color:  #ff9927;
+}
+
+.protect-baby-window a.button {
+  background-color: #ff004d;
+  box-shadow: 0 8px #ba0a0a;
+}
+.protect-baby-window a.button:hover {
+  background-color: #ff9927;
+  box-shadow: 0 8px #ba0a0a;
+}
+
+.protect-baby-window a.button:active {
+  background-color: #ff9927;
+  box-shadow: 0 4px #ba0a0a;
+  transform: translateY(4px);
 }
 
 .bestiemix-window {
@@ -124,6 +172,14 @@ footer {
   }
   .bestiemix-window {
     min-height: 550px;
+  }
+  .protect-baby-logo {
+    max-width: 300px;
+  }
+  .protect-baby-window h2 {
+    font-size: 15px;
+    max-width:  400px;
+    line-height: 25px;
   }
   .bestiemix-window h3 {
     font-size: 15px;
